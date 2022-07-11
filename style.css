@@ -558,8 +558,19 @@ nav a:hover {
   margin-bottom: 0;
 }
 
-#services li {
-  font-size:  0.6rem;
+#services ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+}
+
+#services li::before {
+  content: "-";
+  display: inline-block;
+  font-family:  Helvetica, sans-serif;
+  font-weight: 300;
+  width: 1em;
+  margin-left: -1em;
 }
 
 #services li span {
