@@ -474,6 +474,17 @@ nav a:hover {
 
 }
 
+.banner-phone {
+  position: relative;
+  top: -10vh;
+}
+
+
+#demo1 {
+  position: relative;
+  top: 2vh;
+}
+
 /* About */
 
 .turned-right {  transform: rotate(12.07deg);}
@@ -671,10 +682,6 @@ nav a:hover {
   left: -34%; 
 }
 
-#demo1 {
-  position: relative;
-  top: 12vh;
-}
 
 /* Contact Page */
 
