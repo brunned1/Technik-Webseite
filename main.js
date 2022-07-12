@@ -4,7 +4,7 @@
 
 
 new CircleType(document.getElementById('demo1'))
-.radius(200);
+.radius(180);
   
 // Typed.js Code
 var typed = new Typed('#typed', {
