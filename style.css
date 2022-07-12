@@ -573,6 +573,14 @@ nav a:hover {
 .bg-tablet {
   background-image: url('/images/service-tablet.jpg');
 }
+.bg-fernseher {
+  background-image: url('/images/service-fernseher.JPG');
+  background-position: 50% 75%;
+}
+
+.bg-windows {
+  background-image: url('/images/service-windows.jpg');
+}
 
 
 #services .round {
@@ -681,7 +689,7 @@ nav a:hover {
 
 .contact-banner {
   position: absolute;
-  top:8vh;
+  top:2vh;
   width: 1075.91px;
   z-index: 50;
   left: 0; 
