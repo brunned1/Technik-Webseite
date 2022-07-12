@@ -137,12 +137,14 @@ body {
 .arch-down { border-bottom-left-radius: 200vh; border-bottom-right-radius: 200vh;}
 .round { border-radius: 200vh;}
 .oval { border-radius: 90%;}
+
+
 .phone-arch {
   border-top-left-radius: 200vh; border-top-right-radius: 200vh;
   height: 100vh;
   width: 100%;
   position: absolute;
-  top: 50vh;
+  top: 60vh;
   z-index: 5;
 }
 
@@ -475,14 +477,22 @@ nav a:hover {
 }
 
 .banner-phone {
-  position: relative;
-  top: -10vh;
+  position: absolute;
+  top: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 
 
 #demo1 {
-  position: relative;
-  top: 2vh;
+  position: absolute;
+  top: 12vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 
 /* About */
