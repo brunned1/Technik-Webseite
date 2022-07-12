@@ -564,14 +564,6 @@ nav a:hover {
   padding-left: 1em;
 }
 
-#services li::before {
-  content: "-";
-  display: inline-block;
-  font-family:  Helvetica, sans-serif;
-  font-weight: 300;
-  width: 1em;
-  margin-left: -1em;
-}
 
 #services li span {
   font-size:  1rem;
@@ -598,12 +590,67 @@ nav a:hover {
 }
 
 
+/* Slick Slider */
+
+
+
+.slick-next::before, .slick-prev::before {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: rgb(90,90,90);
+}
+
+
+.author {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+
+.quote-icon {
+  font-size: 4rem;
+  color: rgb(200,200,200);
+}
+
+/* Slider */
+.testimonial-slider-container {
+
+  margin: auto;
+}
+
+.slider-item {
+  display: none;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.slider-item p {
+  margin-bottom: 2rem;
+}
+
+.slider-item:first-child {
+  display: block;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+
+
+
 /* Contact */
 
 
 .contact-banner {
   position: absolute;
-  top: 13vh;
+  top:8vh;
   width: 1075.91px;
   z-index: 50;
   left: 0; 
@@ -622,6 +669,11 @@ nav a:hover {
   overflow: hidden;
   z-index: 50;
   left: -34%; 
+}
+
+#demo1 {
+  position: relative;
+  top: 12vh;
 }
 
 /* Contact Page */
@@ -821,7 +873,7 @@ form .button {
 
 
   html {
-    font-size: 16px;
+    font-size: 19px;
 
   }
 
@@ -846,6 +898,10 @@ form .button {
     flex-direction:  column-reverse;
   }
 
+  h1 {
+    letter-spacing: 1px;
+    font-size : 1.5rem;
+  }
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -862,6 +918,6 @@ form .button {
     }
 
     html {
-      font-size: 14px;
+      font-size: 18px;
     }
 }
