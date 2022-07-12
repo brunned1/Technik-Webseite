@@ -555,6 +555,25 @@ nav a:hover {
 }
 /* Services */
 
+.bg-telefon {
+  background-image: url('/images/service-telefon.jpg');
+  background-size: 110%;
+  background-position: bottom; 
+}
+
+.bg-apple {
+  background-image: url('/images/service-apple.jpg');
+  background-position: 50% 40%; 
+}
+
+.bg-internet {
+  background-image: url('/images/service-internet.jpg');
+}
+
+.bg-tablet {
+  background-image: url('/images/service-tablet.jpg');
+}
+
 
 #services .round {
   width: 17vh;
@@ -819,8 +838,12 @@ form .button {
     margin-top: 2rem;
   }
 
+  .md-margin-b-1 { 
+    margin-bottom: 1rem;
+  }
+
   html {
-    font-size: 18px;
+    font-size: 15px;
   }
 
 
@@ -840,7 +863,19 @@ form .button {
     width: 30vw;
     height: 30vw;
   }
+
+  .button {
+    font-size: 1.2rem;
+  }
+
+  #services .round {
+    width: 15vh;
+    height: 15vh;
+  }
   
+  .md-flex-flip  {
+    flex-direction:  column-reverse;
+  }
 
 
 
@@ -902,13 +937,17 @@ form .button {
     border-bottom: none;
   }
 
-  .sm-flex-flip  {
-    flex-direction:  column-reverse;
-  }
+
 
   h1 {
     letter-spacing: 1px;
     font-size : 1.5rem;
+  }
+
+  #prices .container div {
+    position: absolute;
+    top: 1rem;
+    width: 100%;
   }
 }
 
