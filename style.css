@@ -901,6 +901,9 @@ footer p,  footer a {
   .md-padded-2 {
     padding: 2%;
   }
+  .md-width-100 {
+    width: 100%;
+  }
 
   .md-padded-1 {
     padding: 1rem;
