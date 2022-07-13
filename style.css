@@ -745,8 +745,8 @@ nav a:hover {
 
 .contact .send {
   position: absolute;
-  width: 13vh;
-  height: 13vh;
+  width: 8vw;
+  height: 8vw;
   bottom: -6vh;
   right: 3.5vw;
   border-bottom: none;
@@ -982,8 +982,8 @@ footer p,  footer a {
   }
 
   .contact .send {
-    width: 8vh;
-    height: 8vh;
+    width: 10vw;
+    height: 10vw;
     bottom: -3vh;
 right: 8.5vw;
   }
@@ -1087,8 +1087,7 @@ right: 8.5vw;
   .contact .send {
     position: relative;
     margin-top: 2rem;
-    width: 20vh;
-    height:20vh;
+
     bottom: 0;
     left: 0;
     right: 0;
@@ -1151,8 +1150,8 @@ right: 8.5vw;
     }
 
     .contact .send {
-      width: 12vh;
-      height: 12vh;
+      width: 22vw;
+      height: 22vw;
       margin-top: 0;
     }
     
