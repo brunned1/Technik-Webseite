@@ -922,6 +922,11 @@ footer p,  footer a {
     margin-bottom: 1rem;
   }
 
+  .md-padded-05 {
+    padding: 0.5rem;
+
+  }
+
   html {
     font-size: 15px;
   }
