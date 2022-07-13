@@ -886,8 +886,22 @@ footer p,  footer a {
     line-height: 30px;
   }
 
+  .logo-header {
+    width: 19vw;
+  }
+
+  .header {
+    padding: 1.5rem;
+  }
+
+  .md-padded-2 {
+    padding: 2%;
+  }
+
   .md-padded-1 {
     padding: 1rem;
+  }
+  .md-padded-0 {
   }
   .md-margin-t-0 {
     margin-top: 0;
