@@ -321,7 +321,7 @@ header {
 }
 
 nav a {
-    padding: 0.25rem 0.5rem;
+    padding: 0.4rem 0.55rem;
     display: inline-block;
     text-decoration: none;
 }
@@ -338,7 +338,7 @@ nav a:hover {
 .logo-header {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 2vh;
   width: 18vw;
 }
 
@@ -582,6 +582,10 @@ nav a:hover {
   background-image: url('/images/service-windows.jpg');
 }
 
+#services h4 {
+  margin-bottom: 0.4rem;
+}
+
 
 #services .round {
   width: 17vh;
@@ -686,6 +690,10 @@ nav a:hover {
 
 /* Contact */
 
+#contact-img {
+  width: 78%;
+}
+
 
 .contact-banner {
   position: absolute;
@@ -721,10 +729,10 @@ nav a:hover {
 
 .contact .send {
   position: absolute;
-  width: 27vh;
-  height: 27vh;
-  bottom: -12vh;
-  right: 0;
+  width: 13vh;
+  height: 13vh;
+  bottom: -6vh;
+  right: 3.5vw;
   border-bottom: none;
 }
 
@@ -738,15 +746,22 @@ input, textarea {
   border-radius: 0;
   font-family: inherit;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-style: normal;
-  padding: 0.4em;
+  margin-bottom: 0.8em;
   display: block;
-  width: 100%;
+  width: 98%;
+
 }
 
 textarea {
-  border-bottom: 0.5px solid var(--dark-text);
+  border: 0.5px solid var(--dark-text);
+  margin-top: 0.6em;
+  
+  text-align: center;
+  padding-top: 1.1rem;
+  padding-bottom: 0.1rem;
+  width: 93%;
 }
 
 input:focus,
@@ -763,6 +778,8 @@ input[type="submit"] {
 
 form [class*=col-] {
   padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
@@ -809,7 +826,12 @@ form .button {
   color: var(--dark-text);
 }
 
+/* Footer */
 
+
+footer p,  footer a {
+  font-size: 0.8rem;
+}
 
 
 
@@ -944,7 +966,6 @@ form .button {
     margin-right: auto;
     border-bottom: none;
   }
-
 
 
   h1 {
