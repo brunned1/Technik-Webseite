@@ -155,6 +155,20 @@ body {
 }
 
 
+.phone {
+  position: fixed;
+  bottom: 1.35rem;
+  right: 1.35rem;
+  z-index: 100;
+  color: var(--featured-text);
+ }
+
+.fa-phone {
+
+  
+  font-size: 2.5rem;
+}
+
 .bg-image {
 
     background-size: cover;
