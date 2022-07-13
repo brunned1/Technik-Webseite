@@ -959,6 +959,15 @@ footer p,  footer a {
   }
 
 
+  .contact .send {
+    width: 7vh;
+    height: 7vh;
+    bottom: -2vh;
+right: 7.5vw;
+
+  }
+
+
   .bg-banner-1 { 
 
     width: 40vw;
@@ -1043,7 +1052,7 @@ footer p,  footer a {
     position: relative;
     margin-top: 2rem;
     width: 20vh;
-    height: 20vh;
+    height:20vh;
     bottom: 0;
     left: 0;
     right: 0;
