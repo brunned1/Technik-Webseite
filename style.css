@@ -746,8 +746,8 @@ input, textarea {
   border: none;
   border-bottom: 0.5px solid var(--dark-text);
   text-align: center;
+  font-family: 'Cormorant Infant', serif;
   border-radius: 0;
-  font-family: inherit;
   font-weight: 300;
   font-size: 1rem;
   font-style: normal;
