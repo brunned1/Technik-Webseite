@@ -158,14 +158,13 @@ body {
 .phone {
   position: fixed;
   bottom: 1.35rem;
-  right: 1.35rem;
-  z-index: 100;
+  left: 1.35rem;
+  z-index: 10000;
   color: var(--featured-text);
  }
 
 .fa-phone {
 
-  
   font-size: 2.5rem;
 }
 
