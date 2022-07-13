@@ -962,18 +962,17 @@ footer p,  footer a {
   html {
     font-size: 15px;
   }
+
   .md-padded-lr-1 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-
 
   .contact .send {
     width: 8vh;
     height: 8vh;
     bottom: -3vh;
 right: 8.5vw;
-
   }
 
 
@@ -1085,6 +1084,10 @@ right: 8.5vw;
 
   #prices h4 {
     font-size: 1.15rem;
+  }
+
+  .slider-item p {
+    padding-top: 0;
   }
 }
 
