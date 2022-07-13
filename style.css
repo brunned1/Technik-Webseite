@@ -1082,6 +1082,10 @@ right: 8.5vw;
     top: 2rem;
     width: 100%;
   }
+
+  #prices h4 {
+    font-size: 1.15rem;
+  }
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
