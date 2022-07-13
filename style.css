@@ -913,6 +913,10 @@ footer p,  footer a {
     width: 100%;
   }
 
+  .md-padded-b {
+    padding-bottom: 5%;
+  }
+
   .md-padded-1 {
     padding: 1rem;
   }
@@ -927,7 +931,7 @@ footer p,  footer a {
   }
 
   #contact-img {
-    width: 50%;
+    width: 36%;
   }
 
   .md-margin-b-1 { 
