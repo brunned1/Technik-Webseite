@@ -582,6 +582,7 @@ nav a:hover {
 
 .bg-windows {
   background-image: url('/images/service-windows.jpg');
+  background-position: top;
 }
 
 #services h4 {
