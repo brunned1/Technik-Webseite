@@ -926,6 +926,10 @@ footer p,  footer a {
     margin-top: 2rem;
   }
 
+  #contact-img {
+    width: 50%;
+  }
+
   .md-margin-b-1 { 
     margin-bottom: 1rem;
   }
