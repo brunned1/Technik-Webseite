@@ -902,6 +902,10 @@ footer p,  footer a {
     padding-top: 1.5rem;
   }
 
+  .slider-item p {
+    padding-top: 1rem;
+  }
+
   header nav a {
     font-size: 1rem;
   }
@@ -917,6 +921,9 @@ footer p,  footer a {
     padding-bottom: 5%;
   }
 
+  .md-padded-t-1 {
+    padding-top: 1rem;
+  }
   .md-padded-1 {
     padding: 1rem;
   }
