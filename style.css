@@ -924,6 +924,10 @@ footer p,  footer a {
   .md-padded-t-1 {
     padding-top: 1rem;
   }
+
+  .md-padded-t-0 {
+    padding-top: 0;
+  }
   .md-padded-1 {
     padding: 1rem;
   }
@@ -957,13 +961,17 @@ footer p,  footer a {
   html {
     font-size: 15px;
   }
+  .md-padded-lr-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
 
   .contact .send {
     width: 7vh;
     height: 7vh;
     bottom: -2vh;
-right: 7.5vw;
+right: 8.5vw;
 
   }
 
