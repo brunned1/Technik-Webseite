@@ -882,6 +882,14 @@ footer p,  footer a {
     padding: 5%;
   }
 
+  .md-padded-b-0 {
+    padding-bottom: 0;
+  }
+
+  .md-padded-b-1 {
+    padding-bottom: 1rem;
+  }
+
   #services p, #services li {
     line-height: 2rem;
   }
