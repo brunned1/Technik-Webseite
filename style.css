@@ -122,6 +122,7 @@ body {
 /* ------------ Backgrounds & Background Images  ----------------------- */
 
 
+.bg-footer { background-color: var(--footer);}
 .bg-background     { background-color: var(--background);}
 .bg-dark     { background-color: var(--dark);}
 .bg-featured { background-color: var(--featured);}
@@ -339,6 +340,7 @@ nav a:hover {
   position: absolute;
   left: 0;
   top: 2vh;
+  z-index: 10000;
   width: 18vw;
 }
 
@@ -852,6 +854,17 @@ footer p,  footer a {
   vertical-align: top;
 }
 
+@media(max-width:84em) {
+  html {
+    font-size: 16px;
+  }
+
+  #prices h4 {
+    line-height: 1.5rem;
+  }
+}
+
+
 /* ------- MD Media Query (64em / 1024px) --------------- */ 
 /* - Styles added here will apply at devices smaller than 576px, or zoomed in equivalent */ 
 
@@ -864,6 +877,21 @@ footer p,  footer a {
 	.show-md { display: block; }
 	.hide-md { display: none;  }
 
+
+  .md-padded {
+    padding: 5%;
+  }
+
+  #services p, #services li {
+    line-height: 30px;
+  }
+
+  .md-padded-1 {
+    padding: 1rem;
+  }
+  .md-margin-t-0 {
+    margin-top: 0;
+  }
   .md-margin-t-2 {
     margin-top: 2rem;
   }
@@ -885,6 +913,9 @@ footer p,  footer a {
   .bg-banner-2 { 
     width: 40vw;
 
+  }
+  #prices img {
+    width: 85%;
   }
 
   .banner-3 {

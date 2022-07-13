@@ -2,7 +2,8 @@
 <style> 
 
     :root {
-        --background:  {{ site.data.site-settings.design.background_color }} ;
+        --background:  {{ page.design.background_color | default: site.data.site-settings.design.background_color  }} ;
+        --footer:  {{ page.design.footer_color | default: site.data.site-settings.design.footer_color }} ;
         --dark-text: {{ site.data.site-settings.design.dark-text_color }} ;
         --medium-text:{{ site.data.site-settings.design.medium-text_color }};
         --light-text: {{ site.data.site-settings.design.light-text_color }};
