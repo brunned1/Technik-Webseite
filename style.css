@@ -928,7 +928,8 @@ footer p,  footer a {
     padding: 2%;
   }
   .md-width-100 {
-    width: 100%;
+    max-width: 110%;
+    width: 110%;
   }
 
   .md-padded-b {
@@ -1061,6 +1062,8 @@ right: 8.5vw;
   .sm-review-img {
     position: relative;
     right: 8vw;
+    max-width: 120%;
+    width: 120%;
   }
 
   .sm-flex-flip  {
@@ -1146,7 +1149,7 @@ right: 8.5vw;
     }
 
     #contact-img {
-      width: 65%;
+      width: 75%;
     }
 
     .contact .send {
