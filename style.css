@@ -712,12 +712,12 @@ nav a:hover {
 
 .contact-banner-phone {
   position: absolute;
-  top: 0;
+  top: -66px;
   max-width: 145%;
-  width: 145%;
+  width: 120%;
   overflow: hidden;
   z-index: 50;
-  left: -34%; 
+  left: -13%;
 }
 
 
@@ -1070,6 +1070,7 @@ right: 8.5vw;
   }
 
 
+
   h1 {
     letter-spacing: 1px;
     font-size : 1.5rem;
@@ -1098,4 +1099,15 @@ right: 8.5vw;
     html {
       font-size: 18px;
     }
+
+    #contact-img {
+      width: 65%;
+    }
+
+    .contact .send {
+      width: 15vh;
+      height: 15vh;
+      margin-top: 0;
+    }
+    
 }
