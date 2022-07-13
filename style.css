@@ -1089,6 +1089,11 @@ right: 8.5vw;
   .slider-item p {
     padding-top: 0;
   }
+
+  #services .round {
+    width: 17vh;
+    height: 17vh;
+  }
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
