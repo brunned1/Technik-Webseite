@@ -894,6 +894,10 @@ footer p,  footer a {
     padding-top: 1.5rem;
   }
 
+  header nav a {
+    font-size: 1rem;
+  }
+
   .md-padded-2 {
     padding: 2%;
   }
