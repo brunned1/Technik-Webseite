@@ -158,8 +158,9 @@ body {
 
 .phone {
   position: fixed;
-  bottom: 1.35rem;
-  left: 1.35rem;
+  bottom: 0;
+  left: 0;
+  transform: translate(0.55rem, -0.55rem);
   z-index: 10000;
   fill: var(--featured-text);
   width: 2.5rem;
@@ -332,56 +333,6 @@ nav a:hover {
   width: 18vw;
 }
 
-/* Dropdown styles */
-
-.dropdown { 
-  position: relative; 
-  display: inline-block;
-  border: 1px solid orange;
-}
-
-.dropdown-title {
-  padding: 0.25rem 0.5rem;
-  display: inline-block;
-}
-
-.dropdown-content {
-  position: absolute;
-  top: 100%;
-  left: -1rem;
-  padding: 0.5rem;
-  display:none; 
-  background-color: white;
-  z-index: 2;
-  text-align: left;
-  min-width: 10rem;
-  border: 1px solid mediumvioletred;
-}
-
-.dropdown:hover .dropdown-content{ 
-  display: block;
-}
-
-.dropdown-content a {
-  display: block;
-  padding: 0.2rem;
-}
-
-.hamburger-button {
-    cursor: pointer;
-    padding: 0.5rem;
-    display: inline-block;
-    font-weight: 300;
-    font-size: 2.5rem;
-    line-height: 0.8;
-    position: fixed;
-    right: 5%;
-    top: 0rem;
-    z-index: 4;
-  }
-  
-
-
 /* ------------ Contact Forms  ----------------------- */
 
 
@@ -399,47 +350,11 @@ nav a:hover {
   font-size: 1.15rem;
 }
 
-.bg-banner-1 { 
-  position: absolute;
-  width: 35vw;
-  left: 8vw;
-  top: 8vh;
-  border-radius: 0px 0px 360px 0px;
-}
-.bg-banner-2 { 
-  position: absolute;
-  left: 20vw;
-  width: 34vw;
-}
-
-.bg-banner-3 {
-  background-image: url(/images/banner-3.png);
-}
-
-.margin-banner-3 {
-  margin-top: 35%;
-}
-
-
-.banner-3 {
-  position: relative;
-  top: -4vh;
-  width: 23vw;
-  height: 23vw;
-}
 
 
 
-#banner .round {
-  background-color: var(--featured);
-  position: absolute;
-  bottom: -8vh;
-  border: 3px solid white;
-  right: 5vw;
-  width: 22vw;
-  height: 22vw;
 
-}
+
 
 #demo1 {
   position: absolute;
@@ -457,13 +372,6 @@ nav a:hover {
 .turned-left {   transform: rotate(-12.07deg);}
 
 
-#blue-oval {
-  background: #E1E3E3;
-  position: absolute;
-  width:20vw;
-  height: 58vh;
-  top: 20vh;
-}
 /* Prices */
 
 #prices img {
@@ -472,7 +380,8 @@ nav a:hover {
 
 #prices .container div {
   position: absolute;
-  top: 3rem;
+  top: 0;
+  transform: translateY(3rem);
   width: 100%;
 }
 .container {
@@ -480,44 +389,6 @@ nav a:hover {
   text-align: center;
 }
 
-.bg-elipse-1 {
-  background-image: url(/images/prices-left.png);
-  width: 271px;
-
-}
-
-.bg-elipse-1 div {
-
-  transform: rotate(-12.07deg);
-  position: absolute;
-  top: 30%;
-}
-
-.bg-elipse-2 {
-  background-color: #CBD2D2;
-  transform: rotate(-17.45deg);
-
-}
-
-
-.bg-elipse-2 div {
-
-  transform: rotate(17.45deg);
-  position: absolute;
-  top: 30%;
-}
-
-
-.bg-elipse-3 {
-  background-color: #A0A8A7;
-  transform: rotate(4.28deg);
-}
-
-.bg-elipse-3 div {
-  transform: rotate(-4.28deg);
-  position: absolute;
-  top: 30%;
-}
 /* Services */
 
 .bg-telefon {
@@ -581,22 +452,6 @@ nav a:hover {
 
 /* Reviews    */
 
-#reviews .round {
-  background-color: var(--featured);
-  position: absolute;
-  bottom: 0;
-  border: 3px solid white;
-  left: 5vw;
-  width: 18vw;
-  height: 18vw;
-  background-image: url('https://source.unsplash.com/QeVmJxZOv3k');
-}
-
-#reviews .arch {
-  width: 25vw;
-  height: 70vh;
-  background-image: url('https://source.unsplash.com/QeVmJxZOv3k');
-}
 
 
 /* Slick Slider */
@@ -643,13 +498,6 @@ nav a:hover {
   display: block;
 }
 
-.slick-next {
-  right: 10px;
-}
-
-.slick-prev {
-  left: 10px;
-}
 
 
 
@@ -663,7 +511,9 @@ nav a:hover {
 
 .contact-banner {
   position: absolute;
-  top:2vh;
+  
+  top:0;
+  transform: translateY(2vh);
   width: 1075.91px;
   z-index: 50;
   left: 0; 
@@ -676,12 +526,14 @@ nav a:hover {
 
 .contact-banner-phone {
   position: absolute;
-  top: -66px;
+  top: 0;
+  transform: translateY(-66px);
   max-width: 145%;
   width: 120%;
   overflow: hidden;
   z-index: 50;
-  left: -13%;
+  left: 0;
+  transform: translateX(-13%);
 }
 
 
@@ -697,8 +549,9 @@ nav a:hover {
   position: absolute;
   width: 8vw;
   height: 8vw;
-  bottom: -6vh;
-  right: 3.5vw;
+  bottom: 0;
+  right: 0;
+  transform: translate(-3.5vw, 6vh);
   border-bottom: none;
 }
 
@@ -935,8 +788,11 @@ footer p,  footer a {
   .contact .send {
     width: 10vw;
     height: 10vw;
-    bottom: -3vh;
-right: 8.5vw;
+    
+    bottom: 0;
+
+right: 0;
+transform: translate(-8.5vw, 3vh);
   }
 
 
@@ -953,12 +809,6 @@ right: 8.5vw;
     width: 85%;
   }
 
-  .banner-3 {
-    position: relative;
-    top: -4vh;
-    width: 30vw;
-    height: 30vw;
-  }
 
   .button {
     font-size: 1.2rem;
@@ -1011,7 +861,9 @@ right: 8.5vw;
 
   .sm-review-img {
     position: relative;
-    right: 16vw;
+    right: 0;
+    transform: translateX(-16vw);
+
     max-width: 120%;
     width: 120%;
   }
@@ -1058,7 +910,8 @@ right: 8.5vw;
 
   #prices .container div {
     position: absolute;
-    top: 2rem;
+    top: 0rem;
+    transform: translateY(2rem);
     width: 100%;
   }
 
