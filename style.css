@@ -145,7 +145,8 @@ body {
   height: 100vh;
   width: 100%;
   position: absolute;
-  top: 60vh;
+  top: 0;
+  transform: translateY(60vh);
   z-index: 5;
 }
 
@@ -165,10 +166,6 @@ body {
   height: 2.5rem;
  }
 
-.fa-phone {
-
-  font-size: 2.5rem;
-}
 
 .bg-image {
 
@@ -177,32 +174,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.bg-overlay::after {
-  z-index: 1;
-  content: ""; 
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-}
 
-
-.bg-overlay > * {
-  z-index: 2;
-  position: relative;
-}
-/* Add a second class to change the color or style  */
-
-.bg-overlay-gradient::after { 
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
-} 
-
-.bg-overlay-featured::after { 
-  background-color: var(--featured);
-  opacity: 0.5;
-} 
 
 /* Aspect Ratios with percentage unit are only effective if the element (the <div>) is inside a parent container or column, it can't be applied to the column itself. */
 
@@ -354,7 +326,8 @@ nav a:hover {
 .logo-header {
   position: absolute;
   left: 0;
-  top: 2vh;
+  top: 0;
+  transform: translateY(2vh);
   z-index: 10000;
   width: 18vw;
 }
