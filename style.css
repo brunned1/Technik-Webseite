@@ -160,7 +160,9 @@ body {
   bottom: 1.35rem;
   left: 1.35rem;
   z-index: 10000;
-  color: var(--featured-text);
+  fill: var(--featured-text);
+  width: 2.5rem;
+  height: 2.5rem;
  }
 
 .fa-phone {
