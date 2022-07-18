@@ -3,7 +3,13 @@
 </nav>
 <div class="col-5 left">
     <a href="/index.html"> 
-    <img  class="logo-header lazy" data-src="/images/logo.png">
+
+      <picture>
+        <source type="image/webp" srcset="images/logo.webp">
+        <source type="image/png" srcset="images/logo.png">   
+        <img  alt="Logo" class="logo-header lazy" data-src="/images/logo.png">
+    </picture>
+
     </a>
   </div>
 
@@ -19,7 +25,12 @@
 <header class="grid-middle show-sm">
   <div class="col-12 center margin-b-2">
     <a href="/index.html"> 
-    <img src="/images/logo-phone.png" width="100%">
+      <picture>
+        <source type="image/webp" srcset="images/logo-phone.webp">
+        <source type="image/png" srcset="images/logo-phone.png">   
+        <img  alt="Logo" class="logo-header lazy" data-src="/images/logo-phone.png">
+    </picture>
+    <img alt="Logo Telefon" src="/images/logo-phone.png" width="100%">
     </a>
 </div>
 </header>
