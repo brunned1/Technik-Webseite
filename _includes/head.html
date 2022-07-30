@@ -12,7 +12,11 @@
 <meta name="description" content="{{page.seo.description | default: site.data.site-settings.seo.description }}">
 <meta name="keywords" content="{{page.seo.keywords | default: site.data.site-settings.seo.keywords }}">
 
-
+{% if page.seo.hide-from-google == true %}
+    <meta name="robots" content="noindex, nofollow">
+{% else %}
+     <meta name="robots" content="index, follow">
+{% endif %}
 
 <!----          Google          -->
 <meta name="google-site-verification" content="p3M_Mhk2rtEe5egS0NPu_hxerp6P9WQxSrqu98VAGuI" />
