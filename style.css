@@ -527,13 +527,11 @@ nav a:hover {
 .contact-banner-phone {
   position: absolute;
   top: 0;
-  transform: translateY(-66px);
-  max-width: 145%;
-  width: 120%;
+  width: 95%;
   overflow: hidden;
   z-index: 50;
   left: 0;
-  transform: translateX(-13%);
+  transform: translate(5px, -40px);
 }
 
 
