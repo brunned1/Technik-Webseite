@@ -514,7 +514,7 @@ nav a:hover {
   
   top:0;
   transform: translateY(2vh);
-  width: 1075.91px;
+  width: 80vw;
   z-index: 50;
   left: 0; 
   right: 0; 
@@ -625,7 +625,6 @@ form [class*=col-] {
 .email-signup input {
   width: 30%;
   display: inline-block;
-  max-width: 250px;
   margin-top:1rem;
 }
 
