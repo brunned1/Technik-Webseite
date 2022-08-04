@@ -954,5 +954,9 @@ transform: translate(-8.5vw, 3vh);
       height: 22vw;
       margin-top: 0;
     }
+
+    .xs-margin-b-1 {
+      margin-bottom: 1rem;
+    }
     
 }
