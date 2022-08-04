@@ -105,8 +105,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-new CircleType(document.getElementById('demo1'))
-.radius(180);
   
 // Typed.js Code
 var typed = new Typed('#typed', {
